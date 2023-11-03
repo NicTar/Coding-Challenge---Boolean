@@ -1,0 +1,70 @@
+body{
+    background-image: url(background.jpg);
+    background-size:cover;
+}
+
+#container{
+    background: rgba(00, 00, 00, 0.5);
+    width: 1000px;
+    margin:auto;
+    margin-top: 50px ;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+header > img{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+header > div{
+    text-align: center;
+    color: rgb(129, 206, 5);
+    font-size: 30px;
+    font-family: verdana;
+}
+
+nav{
+    background-color: rgb(129, 206, 5);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main > div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main > div, span{
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+
+div.via{
+    color: lightgray;
+    font-size: 15px;
+}
+
+main > div:first-child div.via + div{
+    height: 20px;
+    width: 300px;
+    background-color: lime;
+    border-radius: 5px;
+}
+
+main > div:nth-child(2) div.via + div{
+    height: 20px;
+    width: 500px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+main > div:last-child div.via + div{
+    height: 20px;
+    width: 150px;
+    background-color: rgb(158, 40, 40);
+    border-radius: 5px;
+}
